@@ -30,24 +30,12 @@ that the analysis should be done on company listed on US Exchange. We must use t
 
 import os
 from pathlib import Path
-import sqlite3
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 from sentiment_analysis import VaderAnalysis
 from data_extraction import HistoricalReturn
 import matplotlib.pyplot as plt # Impot the relevant module
 import pandas as pd
-
-"""
-import json
-from decouple import config
-from langdetect import detect
-import time
-import bs4 as bs
-import requests
-from datetime import datetime
-from dateutil.relativedelta import relativedelta
-"""
 
 class Init():
     """Class that initializes global value for the project. It also use general method to initialize value.
