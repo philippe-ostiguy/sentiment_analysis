@@ -94,7 +94,7 @@ class VaderAnalysis():
             return False
 
     def iterate_day(func):
-        """ Decorator that makes the API call on FinHub each days between the `self.start_date`
+        """ Decorator that performs the sentiment analysis on the news headlines between the `self.start_date`
         and `self.end_date` """
 
         def wrapper_(self,conn_,c):
