@@ -3,7 +3,7 @@
 
 # Using Sentiment Analysis of News Headlines to Predict the Stock Market
 
-Hi, I tested
+Does sentiment analysis of financial news headlines (using Python) have predictive power on the stock market movement?
 
 For the article with explanation, it's [here](https://ostiguyphilippe.medium.com/using-sentiment-analysis-to-predict-the-stock-market-77100295d753).
 
