@@ -120,5 +120,4 @@ if __name__ == '__main__':
         init_.pd_data = v_analysis.vader_analysis()
         init_.pd_data.plot(x =init_.sentiment_name,y=init_.daily_return,style = "o")
         print(init_.pd_data[init_.daily_return].corr(init_.pd_data[init_.sentiment_name]))
-        t = 5
 
